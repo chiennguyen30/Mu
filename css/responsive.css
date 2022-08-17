@@ -1,0 +1,205 @@
+@media only screen and (max-width: 767px) {
+    #main {
+        width: 413px;
+    }
+    .heading {
+        width: 413px;
+        height: auto;
+        line-height: 20px;
+    }
+    .heading-left ul {
+        display: block;
+    }
+    .heading-left img {
+        display: none;
+        width: 413px;
+    }
+    .position {
+        display: none;
+    }
+    .heading-right .sign,
+    .heading-right select,
+    .heading-right option {
+        display: none;
+    }
+    .heading-right .mobile-menu-btn {
+        padding: 10px;
+    }
+    .heading-right .mobile-menu-btn:hover {
+        color: black;
+    }
+    .content-img_bg {
+        margin-top: 70px;
+    }
+    .content-firstTeam {
+        width: 413px;
+        height: auto;
+    }
+    .content-firstTeam_items {
+        width: 413px;
+    }
+    .content-firstTeam_items p {
+        text-indent: 20px;
+    }
+    .content-firstTeam_items img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+    }
+    .position-items {
+        display: none;
+    }
+    .content-manager {
+        width: 413px;
+        height: auto;
+        display: block;
+    }
+    .content-text h2 {
+        margin: 10px auto;
+    }
+    .content-manager .content-img_sk {
+        width: 100%;
+    }
+    .content-img_sk {
+        display: flex;
+        justify-content: center;
+    }
+    .content-img_sk img {
+        width: 150px;
+        height: 150px;
+    }
+    .content-text p {
+        margin-bottom: 0px;
+    }
+    .content-manager .content-text {
+        width: 100%;
+        text-align: center;
+    }
+    .content-shelfSystem {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    #content-manager__info {
+        width: 413px;
+    }
+    #content-manager__info>h2 {
+        text-align: center;
+        margin: 10px 0;
+    }
+    #content-manager__info>p {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    #content-firstTeam h1 {
+        margin: 30px auto;
+        display: block;
+    }
+    .shortcut-items h2 {
+        font-size: 16px;
+    }
+    #content-legends {
+        width: 413px;
+        height: auto;
+    }
+    #content-legends div img {
+        width: 150px;
+        height: 150px;
+    }
+    .img-first {
+        margin-bottom: 10px;
+    }
+    .footer {
+        width: 413px;
+        display: block;
+    }
+    .logo-Donors {
+        width: 100%;
+    }
+    .logo-Donors .img-items {
+        display: none;
+    }
+    .logo-Donors img {
+        width: 70px;
+        height: 70px;
+    }
+    .contact {
+        width: 100%;
+    }
+    #content-legends h1 {
+        display: block;
+        margin-left: 0;
+        padding-top: 10px;
+    }
+}
+
+
+/*tablet*/
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .heading {
+        width: 788px;
+        margin-left: -20px;
+    }
+    select {
+        margin-left: 0px;
+    }
+    .content-img_bg {
+        margin-top: 72px;
+    }
+    .content-firstTeam {
+        width: 768px;
+        height: auto;
+    }
+    .content-firstTeam_items p {
+        text-indent: 20px;
+    }
+    .content-firstTeam_items img {
+        width: 150px;
+        height: 150px;
+    }
+    .content-firstTeam_items {
+        width: 768px;
+    }
+    .content-manager {
+        width: 768px;
+    }
+    .content-manager .content-text {
+        margin-left: 20px;
+    }
+    .content-img_sk img {
+        width: 400px;
+        height: 470px;
+        object-fit: cover;
+    }
+    #content-manager__info {
+        width: 768px;
+        padding-left: 20px;
+    }
+    #content-legends {
+        height: auto;
+    }
+    #content-legends div img {
+        width: 140px;
+        height: 140px;
+    }
+    #content-manager__info>p {
+        width: 97%;
+    }
+    .heading-right>div>i {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .heading-right>div>i {
+        display: none;
+    }
+    .heading-left ul li {
+        transition: all .3s ease;
+    }
+    .heading-left ul li:hover {
+        border-bottom: 3px solid salmon;
+    }
+}
